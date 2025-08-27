@@ -1,0 +1,24 @@
+{
+  "Users": [
+    {
+      "id": "1",
+      "name": "Yabetse Dubale",
+      "UserName": "Jabez",
+      "Password": "12345"
+    },
+    {
+      "id": "038b",
+      "name": "Jaman",
+      "UserName": "the New Name",
+      "Password": "new Password"
+    }
+  ],
+  "Trades": [
+    {
+      "id": "1",
+      "date": "August 16, 2025",
+      "Session": "NY",
+      "PnL": "$125"
+    }
+  ]
+}
