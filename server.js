@@ -6,19 +6,13 @@ const server = jsonServer.create();
 const router = jsonServer.router("db.json"); // <-- your data file
 const middlewares = jsonServer.defaults();
 
-// Allow your Vercel app + local dev (add more origins if needed)
-const allowedOrigins = [
-  "http://localhost:3000",
-  "https://pip-suite.vercel.app/",
-];
-
+// Allow all origins (so Vercel frontend, localhost, Postman, etc. can access)
+// If you later want to restrict, replace this with an allowlist again.
 server.use(
   cors({
-    origin(origin, cb) {
-      // allow no-origin (curl, Postman) and listed origins
-      if (!origin || allowedOrigins.includes(origin)) return cb(null, true);
-      return cb(new Error("Not allowed by CORS"));
-    },
+    origin: "*", // <-- allow all origins
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 
