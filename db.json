@@ -3,22 +3,345 @@
     {
       "id": "1",
       "name": "Yabetse Dubale",
-      "UserName": "Jabez",
-      "Password": "12345"
-    },
-    {
-      "id": "038b",
-      "name": "Jaman",
-      "UserName": "the New Name",
-      "Password": "new Password"
+      "username": "Jabez",
+      "email": "jabezdubale6@gmail.com",
+      "dob": "1994-11-11",
+      "password": "12345",
+      "availableMoney": 0,
+      "winRate": 0,
+      "averageRR": 0,
+      "winStreak": 0,
+      "strategyIds": ["s-fvg", "s-bos"]
     }
   ],
   "Trades": [
     {
+      "id": "t-1",
+      "userId": "1",
+      "assetId": "1",
+      "broker": "exness",
+      "direction": "long",
+      "entryPrice": 3444.583,
+      "takeProfit": 3657.352,
+      "stopLoss": 3379.408,
+      "riskPercent": 3,
+      "riskAmount": 50,
+      "lotSize": 0.01,
+      "tradedPips": 120,
+      "session": "NY",
+      "strategyIds": ["s-fvg", "s-bos"],
+      "rr": 3,
+      "pnl": 120.34,
+      "status": "closed",
+      "createdAt": "2025-08-31T00:00:00Z",
+      "closedAt": "2025-08-31T02:00:00Z",
+      "attachments": []
+    }
+  ],
+  "Assets": [
+    {
       "id": "1",
-      "date": "August 16, 2025",
-      "Session": "NY",
-      "PnL": "$125"
+      "symbol": "XAUUSD",
+      "marketType": "commodities",
+      "contractSize": 100,
+      "pip": 0.1,
+      "tick": 0.01
+    },
+    {
+      "id": "2",
+      "symbol": "EURUSD",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.0001,
+      "tick": 0.00001
+    },
+    {
+      "id": "3",
+      "symbol": "USDJPY",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.01,
+      "tick": 0.001
+    },
+    {
+      "id": "4",
+      "symbol": "GBPUSD",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.0001,
+      "tick": 0.00001
+    },
+    {
+      "id": "5",
+      "symbol": "AUDUSD",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.0001,
+      "tick": 0.00001
+    },
+    {
+      "id": "6",
+      "symbol": "NZDUSD",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.0001,
+      "tick": 0.00001
+    },
+    {
+      "id": "7",
+      "symbol": "USDCAD",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.0001,
+      "tick": 0.00001
+    },
+    {
+      "id": "8",
+      "symbol": "USDCHF",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.0001,
+      "tick": 0.00001
+    },
+    {
+      "id": "9",
+      "symbol": "EURJPY",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.01,
+      "tick": 0.001
+    },
+    {
+      "id": "10",
+      "symbol": "GBPJPY",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.01,
+      "tick": 0.001
+    },
+    {
+      "id": "11",
+      "symbol": "EURAUD",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.0001,
+      "tick": 0.00001
+    },
+    {
+      "id": "12",
+      "symbol": "EURGBP",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.0001,
+      "tick": 0.00001
+    },
+    {
+      "id": "13",
+      "symbol": "AUDJPY",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.01,
+      "tick": 0.001
+    },
+    {
+      "id": "14",
+      "symbol": "CADJPY",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.01,
+      "tick": 0.001
+    },
+    {
+      "id": "15",
+      "symbol": "CHFJPY",
+      "marketType": "forex",
+      "contractSize": 100000,
+      "pip": 0.01,
+      "tick": 0.001
+    },
+    {
+      "id": "16",
+      "symbol": "USOIL",
+      "marketType": "commodities",
+      "contractSize": 1000,
+      "pip": 0.01,
+      "tick": 0.01
+    },
+    {
+      "id": "17",
+      "symbol": "UKOIL",
+      "marketType": "commodities",
+      "contractSize": 1000,
+      "pip": 0.01,
+      "tick": 0.01
+    },
+    {
+      "id": "18",
+      "symbol": "XAGUSD",
+      "marketType": "commodities",
+      "contractSize": 5000,
+      "pip": 0.01,
+      "tick": 0.001
+    },
+    {
+      "id": "19",
+      "symbol": "BTCUSD",
+      "marketType": "crypto",
+      "contractSize": 1,
+      "pip": 0.01,
+      "tick": 0.01
+    },
+    {
+      "id": "20",
+      "symbol": "ETHUSD",
+      "marketType": "crypto",
+      "contractSize": 1,
+      "pip": 0.01,
+      "tick": 0.01
+    },
+    {
+      "id": "21",
+      "symbol": "XRPUSD",
+      "marketType": "crypto",
+      "contractSize": 1,
+      "pip": 0.0001,
+      "tick": 0.0001
+    },
+    {
+      "id": "22",
+      "symbol": "LTCUSD",
+      "marketType": "crypto",
+      "contractSize": 1,
+      "pip": 0.01,
+      "tick": 0.01
+    },
+    {
+      "id": "23",
+      "symbol": "ADAUSD",
+      "marketType": "crypto",
+      "contractSize": 1,
+      "pip": 0.0001,
+      "tick": 0.0001
+    },
+    {
+      "id": "24",
+      "symbol": "SOLUSD",
+      "marketType": "crypto",
+      "contractSize": 1,
+      "pip": 0.01,
+      "tick": 0.01
+    },
+    {
+      "id": "25",
+      "symbol": "BNBUSD",
+      "marketType": "crypto",
+      "contractSize": 1,
+      "pip": 0.01,
+      "tick": 0.01
+    },
+    {
+      "id": "26",
+      "symbol": "US30",
+      "marketType": "indices",
+      "contractSize": 1,
+      "pip": 1.0,
+      "tick": 0.1
+    },
+    {
+      "id": "27",
+      "symbol": "NAS100",
+      "marketType": "indices",
+      "contractSize": 1,
+      "pip": 0.1,
+      "tick": 0.01
+    },
+    {
+      "id": "28",
+      "symbol": "SPX500",
+      "marketType": "indices",
+      "contractSize": 1,
+      "pip": 0.1,
+      "tick": 0.01
+    },
+    {
+      "id": "29",
+      "symbol": "GER30",
+      "marketType": "indices",
+      "contractSize": 1,
+      "pip": 0.1,
+      "tick": 0.01
+    },
+    {
+      "id": "30",
+      "symbol": "UK100",
+      "marketType": "indices",
+      "contractSize": 1,
+      "pip": 0.1,
+      "tick": 0.01
+    },
+    {
+      "id": "31",
+      "symbol": "JP225",
+      "marketType": "indices",
+      "contractSize": 1,
+      "pip": 1.0,
+      "tick": 0.1
+    }
+  ],
+  "Strategies": [
+    {
+      "id": "s-fvg",
+      "name": "Fair Value Gap (FVG)",
+      "description": "Trade imbalances where price left a gap between consecutive candles.",
+      "notes": "Look for confluence with BOS and key sessions.",
+      "keyPoints": [
+        "Identify displacement",
+        "Mark gap",
+        "Wait for mitigation",
+        "Confirm with order flow"
+      ],
+      "timeframes": ["M5", "M15", "H1"],
+      "tags": ["ICT", "price-action", "mean-reversion"]
+    },
+    {
+      "id": "s-bos",
+      "name": "Break of Structure (BOS)",
+      "description": "Enter in direction of trend after market structure break.",
+      "notes": "Use with FVG or OB for refined entries.",
+      "keyPoints": [
+        "Define swing structure",
+        "Wait for close beyond swing",
+        "Retest entry"
+      ],
+      "timeframes": ["M15", "H1", "H4"],
+      "tags": ["ICT", "trend-continuation"]
+    },
+    {
+      "id": "s-ob",
+      "name": "Order Block (OB)",
+      "description": "Trading from the last opposing candle before displacement.",
+      "notes": "Prefer OBs aligned with HTF trend; refine with LTF.",
+      "keyPoints": [
+        "Identify last up/down candle",
+        "Strong displacement",
+        "Mitigation entry"
+      ],
+      "timeframes": ["M5", "M15", "H1"],
+      "tags": ["ICT", "S&D"]
+    },
+    {
+      "id": "s-br",
+      "name": "Break & Retest",
+      "description": "Enter after a clean breakout and retest of a key level.",
+      "notes": "Avoid fakeouts near news; confirm with volume/impulse.",
+      "keyPoints": [
+        "Well-defined level",
+        "Break close",
+        "Retest hold",
+        "Trigger"
+      ],
+      "timeframes": ["M15", "H1"],
+      "tags": ["classical", "trend"]
     }
   ]
 }

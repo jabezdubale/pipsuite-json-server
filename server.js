@@ -24,7 +24,7 @@ server.get("/", (_req, res) => {
   res.status(200).json({
     ok: true,
     message: "PipSuite JSON server is running",
-    endpoints: ["/Users", "/Trades", "/Strategies"],
+    endpoints: ["/Users", "/Trades", "/Assets", "/Strategies"],
   });
 });
 
