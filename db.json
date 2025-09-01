@@ -12,6 +12,32 @@
       "averageRR": 0,
       "winStreak": 0,
       "strategyIds": ["s-fvg", "s-bos"]
+    },
+    {
+      "id": "3b73",
+      "name": "Lemmi Beshada",
+      "username": "Lemmisho",
+      "email": "beshadal6@gmail.com",
+      "dob": "1996-07-06",
+      "password": "Lemmisho222",
+      "availableMoney": 0,
+      "winRate": 0,
+      "averageRR": 0,
+      "winStreak": 0,
+      "strategyIds": []
+    },
+    {
+      "id": "d5be",
+      "name": "Welansa Afework",
+      "username": "wele",
+      "email": "welansa@gmail.com",
+      "dob": "1998-07-07",
+      "password": "lemmisho",
+      "availableMoney": 0,
+      "winRate": 0,
+      "averageRR": 0,
+      "winStreak": 0,
+      "strategyIds": []
     }
   ],
   "Trades": [
@@ -42,250 +68,622 @@
     {
       "id": "1",
       "symbol": "XAUUSD",
+      "base": "XAU",
+      "quote": "USD",
       "marketType": "commodities",
+
       "contractSize": 100,
+      "contractSizeUnit": "XAU_per_lot",
+
       "pip": 0.1,
-      "tick": 0.01
+      "pipUnit": "USD_per_XAU",
+
+      "tick": 0.01,
+      "tickUnit": "USD_per_XAU",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "2",
       "symbol": "EURUSD",
+      "base": "EUR",
+      "quote": "USD",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "EUR_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.00001
+      "pipUnit": "USD_per_EUR",
+
+      "tick": 0.00001,
+      "tickUnit": "USD_per_EUR",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "3",
       "symbol": "USDJPY",
+      "base": "USD",
+      "quote": "JPY",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "USD_per_lot",
+
       "pip": 0.01,
-      "tick": 0.001
+      "pipUnit": "JPY_per_USD",
+
+      "tick": 0.001,
+      "tickUnit": "JPY_per_USD",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "4",
       "symbol": "GBPUSD",
+      "base": "GBP",
+      "quote": "USD",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "GBP_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.00001
+      "pipUnit": "USD_per_GBP",
+
+      "tick": 0.00001,
+      "tickUnit": "USD_per_GBP",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "5",
       "symbol": "AUDUSD",
+      "base": "AUD",
+      "quote": "USD",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "AUD_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.00001
+      "pipUnit": "USD_per_AUD",
+
+      "tick": 0.00001,
+      "tickUnit": "USD_per_AUD",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "6",
       "symbol": "NZDUSD",
+      "base": "NZD",
+      "quote": "USD",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "NZD_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.00001
+      "pipUnit": "USD_per_NZD",
+
+      "tick": 0.00001,
+      "tickUnit": "USD_per_NZD",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "7",
       "symbol": "USDCAD",
+      "base": "USD",
+      "quote": "CAD",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "USD_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.00001
+      "pipUnit": "CAD_per_USD",
+
+      "tick": 0.00001,
+      "tickUnit": "CAD_per_USD",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "8",
       "symbol": "USDCHF",
+      "base": "USD",
+      "quote": "CHF",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "USD_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.00001
+      "pipUnit": "CHF_per_USD",
+
+      "tick": 0.00001,
+      "tickUnit": "CHF_per_USD",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "9",
       "symbol": "EURJPY",
+      "base": "EUR",
+      "quote": "JPY",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "EUR_per_lot",
+
       "pip": 0.01,
-      "tick": 0.001
+      "pipUnit": "JPY_per_EUR",
+
+      "tick": 0.001,
+      "tickUnit": "JPY_per_EUR",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "10",
       "symbol": "GBPJPY",
+      "base": "GBP",
+      "quote": "JPY",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "GBP_per_lot",
+
       "pip": 0.01,
-      "tick": 0.001
+      "pipUnit": "JPY_per_GBP",
+
+      "tick": 0.001,
+      "tickUnit": "JPY_per_GBP",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "11",
       "symbol": "EURAUD",
+      "base": "EUR",
+      "quote": "AUD",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "EUR_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.00001
+      "pipUnit": "AUD_per_EUR",
+
+      "tick": 0.00001,
+      "tickUnit": "AUD_per_EUR",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "12",
       "symbol": "EURGBP",
+      "base": "EUR",
+      "quote": "GBP",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "EUR_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.00001
+      "pipUnit": "GBP_per_EUR",
+
+      "tick": 0.00001,
+      "tickUnit": "GBP_per_EUR",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "13",
       "symbol": "AUDJPY",
+      "base": "AUD",
+      "quote": "JPY",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "AUD_per_lot",
+
       "pip": 0.01,
-      "tick": 0.001
+      "pipUnit": "JPY_per_AUD",
+
+      "tick": 0.001,
+      "tickUnit": "JPY_per_AUD",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "14",
       "symbol": "CADJPY",
+      "base": "CAD",
+      "quote": "JPY",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "CAD_per_lot",
+
       "pip": 0.01,
-      "tick": 0.001
+      "pipUnit": "JPY_per_CAD",
+
+      "tick": 0.001,
+      "tickUnit": "JPY_per_CAD",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "15",
       "symbol": "CHFJPY",
+      "base": "CHF",
+      "quote": "JPY",
       "marketType": "forex",
+
       "contractSize": 100000,
+      "contractSizeUnit": "CHF_per_lot",
+
       "pip": 0.01,
-      "tick": 0.001
+      "pipUnit": "JPY_per_CHF",
+
+      "tick": 0.001,
+      "tickUnit": "JPY_per_CHF",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "16",
       "symbol": "USOIL",
+      "base": "USOIL",
+      "quote": "USD",
       "marketType": "commodities",
+
       "contractSize": 1000,
+      "contractSizeUnit": "barrel_per_lot",
+
       "pip": 0.01,
-      "tick": 0.01
+      "pipUnit": "USD_per_USOIL",
+
+      "tick": 0.01,
+      "tickUnit": "USD_per_USOIL",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "17",
       "symbol": "UKOIL",
+      "base": "UKOIL",
+      "quote": "USD",
       "marketType": "commodities",
+
       "contractSize": 1000,
+      "contractSizeUnit": "barrel_per_lot",
+
       "pip": 0.01,
-      "tick": 0.01
+      "pipUnit": "USD_per_UKOIL",
+
+      "tick": 0.01,
+      "tickUnit": "USD_per_UKOIL",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "18",
       "symbol": "XAGUSD",
+      "base": "XAG",
+      "quote": "USD",
       "marketType": "commodities",
+
       "contractSize": 5000,
+      "contractSizeUnit": "XAG_per_lot",
+
       "pip": 0.01,
-      "tick": 0.001
+      "pipUnit": "USD_per_XAG",
+
+      "tick": 0.001,
+      "tickUnit": "USD_per_XAG",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "19",
       "symbol": "BTCUSD",
+      "base": "BTC",
+      "quote": "USD",
       "marketType": "crypto",
+
       "contractSize": 1,
+      "contractSizeUnit": "BTC_per_lot",
+
       "pip": 0.01,
-      "tick": 0.01
+      "pipUnit": "USD_per_BTC",
+
+      "tick": 0.01,
+      "tickUnit": "USD_per_BTC",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "20",
       "symbol": "ETHUSD",
+      "base": "ETH",
+      "quote": "USD",
       "marketType": "crypto",
+
       "contractSize": 1,
+      "contractSizeUnit": "ETH_per_lot",
+
       "pip": 0.01,
-      "tick": 0.01
+      "pipUnit": "USD_per_ETH",
+
+      "tick": 0.01,
+      "tickUnit": "USD_per_ETH",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "21",
       "symbol": "XRPUSD",
+      "base": "XRP",
+      "quote": "USD",
       "marketType": "crypto",
+
       "contractSize": 1,
+      "contractSizeUnit": "XRP_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.0001
+      "pipUnit": "USD_per_XRP",
+
+      "tick": 0.0001,
+      "tickUnit": "USD_per_XRP",
+
+      "minLot": 1,
+      "lotStep": 1,
+      "maxLot": 100000
     },
     {
       "id": "22",
       "symbol": "LTCUSD",
+      "base": "LTC",
+      "quote": "USD",
       "marketType": "crypto",
+
       "contractSize": 1,
+      "contractSizeUnit": "LTC_per_lot",
+
       "pip": 0.01,
-      "tick": 0.01
+      "pipUnit": "USD_per_LTC",
+
+      "tick": 0.01,
+      "tickUnit": "USD_per_LTC",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "23",
       "symbol": "ADAUSD",
+      "base": "ADA",
+      "quote": "USD",
       "marketType": "crypto",
+
       "contractSize": 1,
+      "contractSizeUnit": "ADA_per_lot",
+
       "pip": 0.0001,
-      "tick": 0.0001
+      "pipUnit": "USD_per_ADA",
+
+      "tick": 0.0001,
+      "tickUnit": "USD_per_ADA",
+
+      "minLot": 1,
+      "lotStep": 1,
+      "maxLot": 100000
     },
     {
       "id": "24",
       "symbol": "SOLUSD",
+      "base": "SOL",
+      "quote": "USD",
       "marketType": "crypto",
+
       "contractSize": 1,
+      "contractSizeUnit": "SOL_per_lot",
+
       "pip": 0.01,
-      "tick": 0.01
+      "pipUnit": "USD_per_SOL",
+
+      "tick": 0.01,
+      "tickUnit": "USD_per_SOL",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "25",
       "symbol": "BNBUSD",
+      "base": "BNB",
+      "quote": "USD",
       "marketType": "crypto",
+
       "contractSize": 1,
+      "contractSizeUnit": "BNB_per_lot",
+
       "pip": 0.01,
-      "tick": 0.01
+      "pipUnit": "USD_per_BNB",
+
+      "tick": 0.01,
+      "tickUnit": "USD_per_BNB",
+
+      "minLot": 0.01,
+      "lotStep": 0.01,
+      "maxLot": 100
     },
     {
       "id": "26",
       "symbol": "US30",
+      "base": "US30",
+      "quote": "USD",
       "marketType": "indices",
+
       "contractSize": 1,
+      "contractSizeUnit": "USD_per_index_point_per_lot",
+
       "pip": 1.0,
-      "tick": 0.1
+      "pipUnit": "index_point",
+
+      "tick": 0.1,
+      "tickUnit": "index_point",
+
+      "minLot": 0.1,
+      "lotStep": 0.1,
+      "maxLot": 100
     },
     {
       "id": "27",
       "symbol": "NAS100",
+      "base": "NAS100",
+      "quote": "USD",
       "marketType": "indices",
+
       "contractSize": 1,
+      "contractSizeUnit": "USD_per_index_point_per_lot",
+
       "pip": 0.1,
-      "tick": 0.01
+      "pipUnit": "index_point",
+
+      "tick": 0.01,
+      "tickUnit": "index_point",
+
+      "minLot": 0.1,
+      "lotStep": 0.1,
+      "maxLot": 100
     },
     {
       "id": "28",
       "symbol": "SPX500",
+      "base": "SPX500",
+      "quote": "USD",
       "marketType": "indices",
+
       "contractSize": 1,
+      "contractSizeUnit": "USD_per_index_point_per_lot",
+
       "pip": 0.1,
-      "tick": 0.01
+      "pipUnit": "index_point",
+
+      "tick": 0.01,
+      "tickUnit": "index_point",
+
+      "minLot": 0.1,
+      "lotStep": 0.1,
+      "maxLot": 100
     },
     {
       "id": "29",
       "symbol": "GER30",
+      "base": "GER30",
+      "quote": "EUR",
       "marketType": "indices",
+
       "contractSize": 1,
+      "contractSizeUnit": "EUR_per_index_point_per_lot",
+
       "pip": 0.1,
-      "tick": 0.01
+      "pipUnit": "index_point",
+
+      "tick": 0.01,
+      "tickUnit": "index_point",
+
+      "minLot": 0.1,
+      "lotStep": 0.1,
+      "maxLot": 100
     },
     {
       "id": "30",
       "symbol": "UK100",
+      "base": "UK100",
+      "quote": "GBP",
       "marketType": "indices",
+
       "contractSize": 1,
+      "contractSizeUnit": "GBP_per_index_point_per_lot",
+
       "pip": 0.1,
-      "tick": 0.01
+      "pipUnit": "index_point",
+
+      "tick": 0.01,
+      "tickUnit": "index_point",
+
+      "minLot": 0.1,
+      "lotStep": 0.1,
+      "maxLot": 100
     },
     {
       "id": "31",
       "symbol": "JP225",
+      "base": "JP225",
+      "quote": "JPY",
       "marketType": "indices",
+
       "contractSize": 1,
+      "contractSizeUnit": "JPY_per_index_point_per_lot",
+
       "pip": 1.0,
-      "tick": 0.1
+      "pipUnit": "index_point",
+
+      "tick": 0.1,
+      "tickUnit": "index_point",
+
+      "minLot": 0.1,
+      "lotStep": 0.1,
+      "maxLot": 100
     }
   ],
   "Strategies": [
