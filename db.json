@@ -73,13 +73,13 @@
       "marketType": "commodities",
 
       "contractSize": 100,
-      "contractSizeUnit": "XAU_per_lot",
+      "contractSizeUnit": "troy_ounce_per_lot",
 
       "pip": 0.1,
-      "pipUnit": "USD_per_XAU",
+      "pipUnit": "USD_per_troy_ounce",
 
       "tick": 0.01,
-      "tickUnit": "USD_per_XAU",
+      "tickUnit": "USD_per_troy_ounce",
 
       "minLot": 0.01,
       "lotStep": 0.01,
@@ -376,10 +376,10 @@
       "contractSizeUnit": "barrel_per_lot",
 
       "pip": 0.01,
-      "pipUnit": "USD_per_USOIL",
+      "pipUnit": "USD_per_barrel",
 
       "tick": 0.01,
-      "tickUnit": "USD_per_USOIL",
+      "tickUnit": "USD_per_barrel",
 
       "minLot": 0.01,
       "lotStep": 0.01,
@@ -396,10 +396,10 @@
       "contractSizeUnit": "barrel_per_lot",
 
       "pip": 0.01,
-      "pipUnit": "USD_per_UKOIL",
+      "pipUnit": "USD_per_barrel",
 
       "tick": 0.01,
-      "tickUnit": "USD_per_UKOIL",
+      "tickUnit": "USD_per_barrel",
 
       "minLot": 0.01,
       "lotStep": 0.01,
@@ -413,13 +413,13 @@
       "marketType": "commodities",
 
       "contractSize": 5000,
-      "contractSizeUnit": "XAG_per_lot",
+      "contractSizeUnit": "troy_ounce_per_lot",
 
       "pip": 0.01,
-      "pipUnit": "USD_per_XAG",
+      "pipUnit": "USD_per_troy_ounce",
 
       "tick": 0.001,
-      "tickUnit": "USD_per_XAG",
+      "tickUnit": "USD_per_troy_ounce",
 
       "minLot": 0.01,
       "lotStep": 0.01,
