@@ -44,7 +44,7 @@
     {
       "id": "t-1",
       "userId": "1",
-      "assetId": "1",
+      "assetPair": "XAUUSD",
       "broker": "exness",
       "direction": "long",
       "entryPrice": 3444.583,
