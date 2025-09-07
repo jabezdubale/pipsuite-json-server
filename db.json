@@ -33,7 +33,7 @@
       "email": "welansa@gmail.com",
       "dob": "1998-07-07",
       "password": "lemmisho",
-      "availableMoney": 0,
+      "availableMoney": 405,
       "winRate": 0,
       "averageRR": 0,
       "winStreak": 0,
@@ -42,25 +42,509 @@
   ],
   "Trades": [
     {
-      "id": "t-1",
-      "userId": "1",
+      "id": "k7a2",
+      "userId": "d5be",
       "assetPair": "XAUUSD",
       "broker": "exness",
       "direction": "long",
-      "entryPrice": 3444.583,
-      "takeProfit": 3657.352,
-      "stopLoss": 3379.408,
-      "riskPercent": 3,
-      "riskAmount": 50,
-      "lotSize": 0.01,
-      "tradedPips": 120,
+      "entryPrice": 2428.35,
+      "takeProfit": 2456.8,
+      "stopLoss": 2412.1,
+      "riskPercent": 2,
+      "riskAmount": 40,
+      "lotSize": 0.1,
+      "tradedPips": 285,
       "session": "NY",
       "strategyIds": ["s-fvg", "s-bos"],
-      "rr": 3,
-      "pnl": 120.34,
+      "rr": 1.8,
+      "pnl": 185.6,
+      "journal": "Breakout continuation after NY open.",
       "status": "closed",
-      "createdAt": "2025-08-31T00:00:00Z",
-      "closedAt": "2025-08-31T02:00:00Z",
+      "createdAt": "2025-08-01T13:00:00Z",
+      "closedAt": "2025-08-01T15:10:00Z",
+      "attachments": []
+    },
+    {
+      "id": "q3zf",
+      "userId": "d5be",
+      "assetPair": "EURUSD",
+      "broker": "icmarkets",
+      "direction": "short",
+      "entryPrice": 1.1042,
+      "takeProfit": 1.1008,
+      "stopLoss": 1.106,
+      "riskPercent": 1,
+      "riskAmount": 25,
+      "lotSize": 0.5,
+      "tradedPips": 34,
+      "session": "LDN",
+      "strategyIds": ["s-bos"],
+      "rr": 1.7,
+      "pnl": 170,
+      "journal": "London reversal from supply.",
+      "status": "closed",
+      "createdAt": "2025-08-02T08:30:00Z",
+      "closedAt": "2025-08-02T10:05:00Z",
+      "attachments": []
+    },
+    {
+      "id": "m9t1",
+      "userId": "d5be",
+      "assetPair": "USDJPY",
+      "broker": "oanda",
+      "direction": "long",
+      "entryPrice": 154.28,
+      "takeProfit": 154.95,
+      "stopLoss": 154,
+      "riskPercent": 1.5,
+      "riskAmount": 30,
+      "lotSize": 0.3,
+      "tradedPips": 67,
+      "session": "TKO",
+      "strategyIds": ["s-fvg"],
+      "rr": 2.4,
+      "pnl": 201,
+      "journal": "Tokyo session bounce off demand.",
+      "status": "closed",
+      "createdAt": "2025-08-03T01:10:00Z",
+      "closedAt": "2025-08-03T03:20:00Z",
+      "attachments": []
+    },
+    {
+      "id": "x2nn",
+      "userId": "d5be",
+      "assetPair": "GBPUSD",
+      "broker": "pepperstone",
+      "direction": "long",
+      "entryPrice": 1.2865,
+      "takeProfit": 1.291,
+      "stopLoss": 1.2838,
+      "riskPercent": 2,
+      "riskAmount": 60,
+      "lotSize": 0.4,
+      "tradedPips": 45,
+      "session": "LDN",
+      "strategyIds": ["s-fvg", "s-bos"],
+      "rr": 1.7,
+      "pnl": 180,
+      "journal": "Bullish BOS retest.",
+      "status": "closed",
+      "createdAt": "2025-08-05T09:05:00Z",
+      "closedAt": "2025-08-05T11:40:00Z",
+      "attachments": []
+    },
+    {
+      "id": "b8r4",
+      "userId": "d5be",
+      "assetPair": "BTCUSD",
+      "broker": "binance",
+      "direction": "short",
+      "entryPrice": 68250,
+      "takeProfit": 67500,
+      "stopLoss": 68650,
+      "riskPercent": 1,
+      "riskAmount": 50,
+      "lotSize": 0.02,
+      "tradedPips": 7500,
+      "session": "NY",
+      "strategyIds": ["s-bos"],
+      "rr": 1.5,
+      "pnl": 150,
+      "journal": "Failed breakout fade.",
+      "status": "closed",
+      "createdAt": "2025-08-06T14:00:00Z",
+      "closedAt": "2025-08-06T17:15:00Z",
+      "attachments": []
+    },
+    {
+      "id": "t4c7",
+      "userId": "d5be",
+      "assetPair": "ETHUSD",
+      "broker": "binance",
+      "direction": "long",
+      "entryPrice": 3420.5,
+      "takeProfit": 3485,
+      "stopLoss": 3390,
+      "riskPercent": 1,
+      "riskAmount": 40,
+      "lotSize": 0.5,
+      "tradedPips": 6450,
+      "session": "NY",
+      "strategyIds": ["s-fvg"],
+      "rr": 2,
+      "pnl": 80,
+      "journal": "Impulse leg continuation.",
+      "status": "closed",
+      "createdAt": "2025-08-07T16:30:00Z",
+      "closedAt": "2025-08-07T18:00:00Z",
+      "attachments": []
+    },
+    {
+      "id": "g5pu",
+      "userId": "d5be",
+      "assetPair": "US30",
+      "broker": "icmarkets",
+      "direction": "long",
+      "entryPrice": 41520,
+      "takeProfit": 41680,
+      "stopLoss": 41460,
+      "riskPercent": 0.5,
+      "riskAmount": 25,
+      "lotSize": 0.5,
+      "tradedPips": 160,
+      "session": "NY",
+      "strategyIds": ["s-fvg"],
+      "rr": 2,
+      "pnl": 100,
+      "journal": "NY open drive up.",
+      "status": "closed",
+      "createdAt": "2025-08-08T13:35:00Z",
+      "closedAt": "2025-08-08T14:45:00Z",
+      "attachments": []
+    },
+    {
+      "id": "p1yq",
+      "userId": "d5be",
+      "assetPair": "NAS100",
+      "broker": "pepperstone",
+      "direction": "short",
+      "entryPrice": 18540,
+      "takeProfit": 18460,
+      "stopLoss": 18585,
+      "riskPercent": 0.7,
+      "riskAmount": 35,
+      "lotSize": 0.4,
+      "tradedPips": 80,
+      "session": "NY",
+      "strategyIds": ["s-bos"],
+      "rr": 1.6,
+      "pnl": 56,
+      "journal": "Rejection at previous day high.",
+      "status": "closed",
+      "createdAt": "2025-08-09T15:10:00Z",
+      "closedAt": "2025-08-09T16:05:00Z",
+      "attachments": []
+    },
+    {
+      "id": "z6ms",
+      "userId": "d5be",
+      "assetPair": "SPX500",
+      "broker": "oanda",
+      "direction": "long",
+      "entryPrice": 5412.5,
+      "takeProfit": 5430,
+      "stopLoss": 5404,
+      "riskPercent": 0.6,
+      "riskAmount": 30,
+      "lotSize": 0.6,
+      "tradedPips": 17.5,
+      "session": "NY",
+      "strategyIds": ["s-fvg"],
+      "rr": 2.3,
+      "pnl": 69,
+      "journal": "Intraday trend continuation.",
+      "status": "closed",
+      "createdAt": "2025-08-11T14:00:00Z",
+      "closedAt": "2025-08-11T15:20:00Z",
+      "attachments": []
+    },
+    {
+      "id": "h0rw",
+      "userId": "d5be",
+      "assetPair": "USDCHF",
+      "broker": "exness",
+      "direction": "short",
+      "entryPrice": 0.8908,
+      "takeProfit": 0.8888,
+      "stopLoss": 0.892,
+      "riskPercent": 1,
+      "riskAmount": 20,
+      "lotSize": 0.3,
+      "tradedPips": 20,
+      "session": "LDN",
+      "strategyIds": ["s-bos"],
+      "rr": 1.7,
+      "pnl": 51,
+      "journal": "Lower high rejection.",
+      "status": "closed",
+      "createdAt": "2025-08-12T09:45:00Z",
+      "closedAt": "2025-08-12T11:00:00Z",
+      "attachments": []
+    },
+    {
+      "id": "v2dk",
+      "userId": "d5be",
+      "assetPair": "AUDUSD",
+      "broker": "icmarkets",
+      "direction": "long",
+      "entryPrice": 0.6752,
+      "takeProfit": 0.678,
+      "stopLoss": 0.6738,
+      "riskPercent": 1,
+      "riskAmount": 25,
+      "lotSize": 0.4,
+      "tradedPips": 28,
+      "session": "TKO",
+      "strategyIds": ["s-fvg"],
+      "rr": 2,
+      "pnl": 56,
+      "journal": "Demand zone bounce.",
+      "status": "closed",
+      "createdAt": "2025-08-13T02:30:00Z",
+      "closedAt": "2025-08-13T04:10:00Z",
+      "attachments": []
+    },
+    {
+      "id": "r9h3",
+      "userId": "d5be",
+      "assetPair": "USDCAD",
+      "broker": "pepperstone",
+      "direction": "short",
+      "entryPrice": 1.3225,
+      "takeProfit": 1.3195,
+      "stopLoss": 1.324,
+      "riskPercent": 1,
+      "riskAmount": 25,
+      "lotSize": 0.3,
+      "tradedPips": 30,
+      "session": "NY",
+      "strategyIds": ["s-bos"],
+      "rr": 2,
+      "pnl": 60,
+      "journal": "Break of structure and retest.",
+      "status": "closed",
+      "createdAt": "2025-08-14T13:15:00Z",
+      "closedAt": "2025-08-14T14:30:00Z",
+      "attachments": []
+    },
+    {
+      "id": "w4jt",
+      "userId": "d5be",
+      "assetPair": "NZDUSD",
+      "broker": "oanda",
+      "direction": "long",
+      "entryPrice": 0.612,
+      "takeProfit": 0.6148,
+      "stopLoss": 0.6106,
+      "riskPercent": 1,
+      "riskAmount": 20,
+      "lotSize": 0.3,
+      "tradedPips": 28,
+      "session": "TKO",
+      "strategyIds": ["s-fvg"],
+      "rr": 2,
+      "pnl": 42,
+      "journal": "Asian session pullback entry.",
+      "status": "closed",
+      "createdAt": "2025-08-15T01:10:00Z",
+      "closedAt": "2025-08-15T03:10:00Z",
+      "attachments": []
+    },
+    {
+      "id": "y8pm",
+      "userId": "d5be",
+      "assetPair": "EURJPY",
+      "broker": "exness",
+      "direction": "short",
+      "entryPrice": 170.4,
+      "takeProfit": 169.9,
+      "stopLoss": 170.7,
+      "riskPercent": 1.2,
+      "riskAmount": 30,
+      "lotSize": 0.25,
+      "tradedPips": 50,
+      "session": "LDN",
+      "strategyIds": ["s-bos"],
+      "rr": 1.7,
+      "pnl": 112.5,
+      "journal": "Rejection from H4 supply.",
+      "status": "closed",
+      "createdAt": "2025-08-18T08:20:00Z",
+      "closedAt": "2025-08-18T10:40:00Z",
+      "attachments": []
+    },
+    {
+      "id": "c3ls",
+      "userId": "d5be",
+      "assetPair": "GBPJPY",
+      "broker": "icmarkets",
+      "direction": "long",
+      "entryPrice": 201.85,
+      "takeProfit": 202.6,
+      "stopLoss": 201.4,
+      "riskPercent": 1.2,
+      "riskAmount": 36,
+      "lotSize": 0.2,
+      "tradedPips": 75,
+      "session": "LDN",
+      "strategyIds": ["s-fvg"],
+      "rr": 1.7,
+      "pnl": 150,
+      "journal": "Momentum continuation after BOS.",
+      "status": "closed",
+      "createdAt": "2025-08-19T09:00:00Z",
+      "closedAt": "2025-08-19T11:30:00Z",
+      "attachments": []
+    },
+    {
+      "id": "n7qb",
+      "userId": "d5be",
+      "assetPair": "XAGUSD",
+      "broker": "pepperstone",
+      "direction": "short",
+      "entryPrice": 29.45,
+      "takeProfit": 29.1,
+      "stopLoss": 29.62,
+      "riskPercent": 1,
+      "riskAmount": 20,
+      "lotSize": 1,
+      "tradedPips": 350,
+      "session": "NY",
+      "strategyIds": ["s-bos"],
+      "rr": 2.1,
+      "pnl": 73.5,
+      "journal": "Mean reversion to VWAP.",
+      "status": "closed",
+      "createdAt": "2025-08-20T14:25:00Z",
+      "closedAt": "2025-08-20T15:15:00Z",
+      "attachments": []
+    },
+    {
+      "id": "f6xe",
+      "userId": "d5be",
+      "assetPair": "USOIL",
+      "broker": "oanda",
+      "direction": "long",
+      "entryPrice": 79.2,
+      "takeProfit": 80.1,
+      "stopLoss": 78.8,
+      "riskPercent": 0.8,
+      "riskAmount": 24,
+      "lotSize": 0.8,
+      "tradedPips": 90,
+      "session": "NY",
+      "strategyIds": ["s-fvg"],
+      "rr": 2.3,
+      "pnl": 72,
+      "journal": "EIA pre-move push.",
+      "status": "closed",
+      "createdAt": "2025-08-21T16:00:00Z",
+      "closedAt": "2025-08-21T17:05:00Z",
+      "attachments": []
+    },
+    {
+      "id": "u4dd",
+      "userId": "d5be",
+      "assetPair": "GER30",
+      "broker": "icmarkets",
+      "direction": "short",
+      "entryPrice": 18450,
+      "takeProfit": 18370,
+      "stopLoss": 18490,
+      "riskPercent": 0.7,
+      "riskAmount": 21,
+      "lotSize": 0.3,
+      "tradedPips": 80,
+      "session": "LDN",
+      "strategyIds": ["s-bos"],
+      "rr": 2,
+      "pnl": 48,
+      "journal": "Gap fill fade.",
+      "status": "closed",
+      "createdAt": "2025-08-22T07:50:00Z",
+      "closedAt": "2025-08-22T09:00:00Z",
+      "attachments": []
+    },
+    {
+      "id": "d1vg",
+      "userId": "d5be",
+      "assetPair": "UK100",
+      "broker": "pepperstone",
+      "direction": "long",
+      "entryPrice": 8380,
+      "takeProfit": 8420,
+      "stopLoss": 8360,
+      "riskPercent": 0.8,
+      "riskAmount": 24,
+      "lotSize": 0.4,
+      "tradedPips": 40,
+      "session": "LDN",
+      "strategyIds": ["s-fvg"],
+      "rr": 2,
+      "pnl": 64,
+      "journal": "Bull flag breakout.",
+      "status": "closed",
+      "createdAt": "2025-08-25T08:15:00Z",
+      "closedAt": "2025-08-25T09:10:00Z",
+      "attachments": []
+    },
+    {
+      "id": "s0kp",
+      "userId": "d5be",
+      "assetPair": "JP225",
+      "broker": "exness",
+      "direction": "long",
+      "entryPrice": 40650,
+      "takeProfit": 40780,
+      "stopLoss": 40590,
+      "riskPercent": 0.6,
+      "riskAmount": 18,
+      "lotSize": 0.25,
+      "tradedPips": 130,
+      "session": "TKO",
+      "strategyIds": ["s-fvg"],
+      "rr": 2.2,
+      "pnl": 72.5,
+      "journal": "Tokyo trend follow.",
+      "status": "closed",
+      "createdAt": "2025-08-26T01:30:00Z",
+      "closedAt": "2025-08-26T03:00:00Z",
+      "attachments": []
+    },
+    {
+      "id": "j5er",
+      "userId": "d5be",
+      "assetPair": "XAUUSD",
+      "broker": "exness",
+      "direction": "short",
+      "entryPrice": 2438.9,
+      "takeProfit": 2426.2,
+      "stopLoss": 2445.4,
+      "riskPercent": 1.5,
+      "riskAmount": 45,
+      "lotSize": 0.08,
+      "tradedPips": 127,
+      "session": "NY",
+      "strategyIds": ["s-bos"],
+      "rr": 2,
+      "pnl": 160.8,
+      "journal": "NY reversal from 4H supply.",
+      "status": "closed",
+      "createdAt": "2025-08-28T13:40:00Z",
+      "closedAt": "2025-08-28T15:35:00Z",
+      "attachments": []
+    },
+    {
+      "id": "e7um",
+      "userId": "d5be",
+      "assetPair": "EURUSD",
+      "broker": "icmarkets",
+      "direction": "long",
+      "entryPrice": 1.096,
+      "takeProfit": 1.0995,
+      "stopLoss": 1.0945,
+      "riskPercent": 1,
+      "riskAmount": 20,
+      "lotSize": 0.3,
+      "tradedPips": 35,
+      "session": "LDN",
+      "strategyIds": ["s-fvg", "s-bos"],
+      "rr": 2.3,
+      "pnl": 105,
+      "journal": "BOS + FVG confluence.",
+      "status": "closed",
+      "createdAt": "2025-08-29T09:20:00Z",
+      "closedAt": "2025-08-29T10:55:00Z",
       "attachments": []
     }
   ],
@@ -71,16 +555,12 @@
       "base": "XAU",
       "quote": "USD",
       "marketType": "commodities",
-
       "contractSize": 100,
       "contractSizeUnit": "troy_ounce_per_lot",
-
       "pip": 0.1,
       "pipUnit": "USD_per_troy_ounce",
-
       "tick": 0.01,
       "tickUnit": "USD_per_troy_ounce",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -91,16 +571,12 @@
       "base": "EUR",
       "quote": "USD",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "EUR_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "USD_per_EUR",
-
       "tick": 0.00001,
       "tickUnit": "USD_per_EUR",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -111,16 +587,12 @@
       "base": "USD",
       "quote": "JPY",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "USD_per_lot",
-
       "pip": 0.01,
       "pipUnit": "JPY_per_USD",
-
       "tick": 0.001,
       "tickUnit": "JPY_per_USD",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -131,16 +603,12 @@
       "base": "GBP",
       "quote": "USD",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "GBP_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "USD_per_GBP",
-
       "tick": 0.00001,
       "tickUnit": "USD_per_GBP",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -151,16 +619,12 @@
       "base": "AUD",
       "quote": "USD",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "AUD_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "USD_per_AUD",
-
       "tick": 0.00001,
       "tickUnit": "USD_per_AUD",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -171,16 +635,12 @@
       "base": "NZD",
       "quote": "USD",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "NZD_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "USD_per_NZD",
-
       "tick": 0.00001,
       "tickUnit": "USD_per_NZD",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -191,16 +651,12 @@
       "base": "USD",
       "quote": "CAD",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "USD_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "CAD_per_USD",
-
       "tick": 0.00001,
       "tickUnit": "CAD_per_USD",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -211,16 +667,12 @@
       "base": "USD",
       "quote": "CHF",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "USD_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "CHF_per_USD",
-
       "tick": 0.00001,
       "tickUnit": "CHF_per_USD",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -231,16 +683,12 @@
       "base": "EUR",
       "quote": "JPY",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "EUR_per_lot",
-
       "pip": 0.01,
       "pipUnit": "JPY_per_EUR",
-
       "tick": 0.001,
       "tickUnit": "JPY_per_EUR",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -251,16 +699,12 @@
       "base": "GBP",
       "quote": "JPY",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "GBP_per_lot",
-
       "pip": 0.01,
       "pipUnit": "JPY_per_GBP",
-
       "tick": 0.001,
       "tickUnit": "JPY_per_GBP",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -271,16 +715,12 @@
       "base": "EUR",
       "quote": "AUD",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "EUR_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "AUD_per_EUR",
-
       "tick": 0.00001,
       "tickUnit": "AUD_per_EUR",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -291,16 +731,12 @@
       "base": "EUR",
       "quote": "GBP",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "EUR_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "GBP_per_EUR",
-
       "tick": 0.00001,
       "tickUnit": "GBP_per_EUR",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -311,16 +747,12 @@
       "base": "AUD",
       "quote": "JPY",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "AUD_per_lot",
-
       "pip": 0.01,
       "pipUnit": "JPY_per_AUD",
-
       "tick": 0.001,
       "tickUnit": "JPY_per_AUD",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -331,16 +763,12 @@
       "base": "CAD",
       "quote": "JPY",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "CAD_per_lot",
-
       "pip": 0.01,
       "pipUnit": "JPY_per_CAD",
-
       "tick": 0.001,
       "tickUnit": "JPY_per_CAD",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -351,16 +779,12 @@
       "base": "CHF",
       "quote": "JPY",
       "marketType": "forex",
-
       "contractSize": 100000,
       "contractSizeUnit": "CHF_per_lot",
-
       "pip": 0.01,
       "pipUnit": "JPY_per_CHF",
-
       "tick": 0.001,
       "tickUnit": "JPY_per_CHF",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -371,16 +795,12 @@
       "base": "USOIL",
       "quote": "USD",
       "marketType": "commodities",
-
       "contractSize": 1000,
       "contractSizeUnit": "barrel_per_lot",
-
       "pip": 0.01,
       "pipUnit": "USD_per_barrel",
-
       "tick": 0.01,
       "tickUnit": "USD_per_barrel",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -391,16 +811,12 @@
       "base": "UKOIL",
       "quote": "USD",
       "marketType": "commodities",
-
       "contractSize": 1000,
       "contractSizeUnit": "barrel_per_lot",
-
       "pip": 0.01,
       "pipUnit": "USD_per_barrel",
-
       "tick": 0.01,
       "tickUnit": "USD_per_barrel",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -411,16 +827,12 @@
       "base": "XAG",
       "quote": "USD",
       "marketType": "commodities",
-
       "contractSize": 5000,
       "contractSizeUnit": "troy_ounce_per_lot",
-
       "pip": 0.01,
       "pipUnit": "USD_per_troy_ounce",
-
       "tick": 0.001,
       "tickUnit": "USD_per_troy_ounce",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -431,16 +843,12 @@
       "base": "BTC",
       "quote": "USD",
       "marketType": "crypto",
-
       "contractSize": 1,
       "contractSizeUnit": "BTC_per_lot",
-
       "pip": 0.01,
       "pipUnit": "USD_per_BTC",
-
       "tick": 0.01,
       "tickUnit": "USD_per_BTC",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -451,16 +859,12 @@
       "base": "ETH",
       "quote": "USD",
       "marketType": "crypto",
-
       "contractSize": 1,
       "contractSizeUnit": "ETH_per_lot",
-
       "pip": 0.01,
       "pipUnit": "USD_per_ETH",
-
       "tick": 0.01,
       "tickUnit": "USD_per_ETH",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -471,16 +875,12 @@
       "base": "XRP",
       "quote": "USD",
       "marketType": "crypto",
-
       "contractSize": 1,
       "contractSizeUnit": "XRP_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "USD_per_XRP",
-
       "tick": 0.0001,
       "tickUnit": "USD_per_XRP",
-
       "minLot": 1,
       "lotStep": 1,
       "maxLot": 100000
@@ -491,16 +891,12 @@
       "base": "LTC",
       "quote": "USD",
       "marketType": "crypto",
-
       "contractSize": 1,
       "contractSizeUnit": "LTC_per_lot",
-
       "pip": 0.01,
       "pipUnit": "USD_per_LTC",
-
       "tick": 0.01,
       "tickUnit": "USD_per_LTC",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -511,16 +907,12 @@
       "base": "ADA",
       "quote": "USD",
       "marketType": "crypto",
-
       "contractSize": 1,
       "contractSizeUnit": "ADA_per_lot",
-
       "pip": 0.0001,
       "pipUnit": "USD_per_ADA",
-
       "tick": 0.0001,
       "tickUnit": "USD_per_ADA",
-
       "minLot": 1,
       "lotStep": 1,
       "maxLot": 100000
@@ -531,16 +923,12 @@
       "base": "SOL",
       "quote": "USD",
       "marketType": "crypto",
-
       "contractSize": 1,
       "contractSizeUnit": "SOL_per_lot",
-
       "pip": 0.01,
       "pipUnit": "USD_per_SOL",
-
       "tick": 0.01,
       "tickUnit": "USD_per_SOL",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -551,16 +939,12 @@
       "base": "BNB",
       "quote": "USD",
       "marketType": "crypto",
-
       "contractSize": 1,
       "contractSizeUnit": "BNB_per_lot",
-
       "pip": 0.01,
       "pipUnit": "USD_per_BNB",
-
       "tick": 0.01,
       "tickUnit": "USD_per_BNB",
-
       "minLot": 0.01,
       "lotStep": 0.01,
       "maxLot": 100
@@ -571,16 +955,12 @@
       "base": "US30",
       "quote": "USD",
       "marketType": "indices",
-
       "contractSize": 1,
       "contractSizeUnit": "USD_per_index_point_per_lot",
-
-      "pip": 1.0,
+      "pip": 1,
       "pipUnit": "index_point",
-
       "tick": 0.1,
       "tickUnit": "index_point",
-
       "minLot": 0.1,
       "lotStep": 0.1,
       "maxLot": 100
@@ -591,16 +971,12 @@
       "base": "NAS100",
       "quote": "USD",
       "marketType": "indices",
-
       "contractSize": 1,
       "contractSizeUnit": "USD_per_index_point_per_lot",
-
       "pip": 0.1,
       "pipUnit": "index_point",
-
       "tick": 0.01,
       "tickUnit": "index_point",
-
       "minLot": 0.1,
       "lotStep": 0.1,
       "maxLot": 100
@@ -611,16 +987,12 @@
       "base": "SPX500",
       "quote": "USD",
       "marketType": "indices",
-
       "contractSize": 1,
       "contractSizeUnit": "USD_per_index_point_per_lot",
-
       "pip": 0.1,
       "pipUnit": "index_point",
-
       "tick": 0.01,
       "tickUnit": "index_point",
-
       "minLot": 0.1,
       "lotStep": 0.1,
       "maxLot": 100
@@ -631,16 +1003,12 @@
       "base": "GER30",
       "quote": "EUR",
       "marketType": "indices",
-
       "contractSize": 1,
       "contractSizeUnit": "EUR_per_index_point_per_lot",
-
       "pip": 0.1,
       "pipUnit": "index_point",
-
       "tick": 0.01,
       "tickUnit": "index_point",
-
       "minLot": 0.1,
       "lotStep": 0.1,
       "maxLot": 100
@@ -651,16 +1019,12 @@
       "base": "UK100",
       "quote": "GBP",
       "marketType": "indices",
-
       "contractSize": 1,
       "contractSizeUnit": "GBP_per_index_point_per_lot",
-
       "pip": 0.1,
       "pipUnit": "index_point",
-
       "tick": 0.01,
       "tickUnit": "index_point",
-
       "minLot": 0.1,
       "lotStep": 0.1,
       "maxLot": 100
@@ -671,16 +1035,12 @@
       "base": "JP225",
       "quote": "JPY",
       "marketType": "indices",
-
       "contractSize": 1,
       "contractSizeUnit": "JPY_per_index_point_per_lot",
-
-      "pip": 1.0,
+      "pip": 1,
       "pipUnit": "index_point",
-
       "tick": 0.1,
       "tickUnit": "index_point",
-
       "minLot": 0.1,
       "lotStep": 0.1,
       "maxLot": 100
